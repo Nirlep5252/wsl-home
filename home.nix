@@ -18,9 +18,6 @@
     ./applications/default.nix
   ];
 
-  home.packages = [
-  ];
-
   home.file = {
   };
 
