@@ -1,14 +1,12 @@
 { pkgs, inputs, lib, ... }: {
   home.packages = let
-    nvix = inputs.nvix.packages.${pkgs.system}.base.extend {
-      config.colorschemes.tokyonight.settings.transparent = false;
+    epicvim = inputs.epicvim.packages.${pkgs.system}.default.extend {
       config.clipboard.providers.wl-copy.enable = lib.mkForce false;
       config.clipboard.providers.xclip.enable = lib.mkForce true;
-      config.globals.copilot_browser = "C:\\Program Files\\Mozilla Firefox\\firefox.exe";
     };
   in [
     # editors
-    nvix
+    epicvim
 
     # development
     pkgs.lazydocker

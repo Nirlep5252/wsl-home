@@ -8,7 +8,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nvix.url = "github:niksingh710/nvix";
+    epicvim.url = "github:nirlep5252/epicvim";
   };
 
   outputs = { nixpkgs, home-manager, ... }@inputs:
