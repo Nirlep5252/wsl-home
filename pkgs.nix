@@ -17,5 +17,7 @@
     # utilities
     pkgs.wslu
     pkgs.fastfetch
+    pkgs.ripgrep
+    pkgs.eza
   ];
 }

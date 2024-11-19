@@ -1,4 +1,4 @@
-{ ... }: {
+{ pkgs, ... }: {
   programs.zsh = {
     enable = true;
     enableCompletion = true;
@@ -16,6 +16,7 @@
       cd = "z";
       n = "nvim";
       hms = "home-manager switch --flake ~/wsl-home";
+      ls = "${pkgs.eza}/bin/eza";
     };
   };
 
