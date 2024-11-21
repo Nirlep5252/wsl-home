@@ -29,11 +29,11 @@
         "nixvim": "nixvim"
       },
       "locked": {
-        "lastModified": 1732096857,
-        "narHash": "sha256-kuJ8lWcdkwuWrbqNiX1s/+HkHgfItWYH6u52d7hVWwQ=",
+        "lastModified": 1732174526,
+        "narHash": "sha256-WBQDuZK9jz4KF02aRRzpibFYztJFKlzIUZdYj6Q1jQU=",
         "owner": "nirlep5252",
         "repo": "epicvim",
-        "rev": "74194042736d0a6ccce4065c1a48fd9415f9e7f9",
+        "rev": "77951c1d83e08219ea84024f327f3e0880b74995",
         "type": "github"
       },
       "original": {
