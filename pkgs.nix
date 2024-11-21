@@ -11,6 +11,8 @@
     # development
     pkgs.lazydocker
     pkgs.lazygit
+    pkgs.go
+    pkgs.exercism
 
     # utilities
     pkgs.wslu
