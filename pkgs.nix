@@ -12,7 +12,9 @@
     pkgs.lazydocker
     pkgs.lazygit
     pkgs.go
+    pkgs.rustup
     pkgs.exercism
+    pkgs.gh
 
     # utilities
     pkgs.wslu

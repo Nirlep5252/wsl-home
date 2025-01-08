@@ -16,7 +16,7 @@
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      homeConfigurations."uwu" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."nirlep" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [ ./home.nix ];
         extraSpecialArgs = {

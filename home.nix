@@ -1,8 +1,8 @@
 { pkgs, ... }:
 
 {
-  home.username = "uwu";
-  home.homeDirectory = "/home/uwu";
+  home.username = "nirlep";
+  home.homeDirectory = "/home/nirlep";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
